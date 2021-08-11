@@ -1,0 +1,337 @@
+@media screen and (max-width: 950px) {
+    .ul-head {
+      display: none;
+    }
+}    
+body{
+    font-family: Arial;
+    background-color:#fcfcfcec;
+}
+h2{
+    font-size: 1.6em
+}
+a{
+    display: block;
+    padding: 0px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/******* HEADER AND MID******/
+.heading2{
+    display: inline-block;
+    margin: 55px;
+}
+.container{
+    width: 100%;
+    height: 660px;
+    position: relative;
+    margin: 0px;
+    background-color:#F6F7F9;
+    padding-left: 0%;
+}
+.box{
+    position: absolute;
+    border-radius: 0.4%;
+    box-shadow: 0 1px 5px 1px #cecece;
+}
+.box1{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    padding: 20px 10% 0px 10%;
+    box-sizing: border-box;
+    overflow:hidden;
+    background-color: #F6F7F9;
+}
+.main-child{
+    z-index: 9;
+    margin: 0px;
+    width: 80%;
+    height: 860px;
+    top: 610px;
+    left: 10%;
+    background-color: white;
+}
+.top-img{
+    margin: 0px 5px 0px 5px;
+}
+.ul-head{
+    list-style-type: none;
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+    float: right;
+  }
+.li-head{
+    margin: 0px 1vw;
+    float: left;
+    position: relative;
+    padding: 1px;
+}
+.nav-home{
+    color: #FF5300;
+    padding-bottom: 5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 2px;       
+    width: fit-content;
+}
+li a:hover{
+    color: #FF5300;
+    padding-bottom: 5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 2px;       
+    width: fit-content;
+}
+.button{
+    color: white;
+    padding: 9px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #FF5300;
+    margin: 5px 7px;
+    background-color: #FF5300;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.button:hover{
+    color:#FF5300;
+    padding: 9px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #FF5300;
+    margin: 5px 7px;
+    background-color:white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.button-white{
+    color: #FF5300;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #FF5300;
+    margin: -10px 0px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.button-white:hover{
+    color:white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #FF5300;
+    margin: -10px 0px;
+    background-color: #FF5300;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.mid-top{
+    width: 88%;
+    left: 6%;
+    float: left;
+    position: relative;
+}
+.m-left{
+    width: 74%;
+    float: left;
+    overflow: hidden;
+}
+.m-right{
+    width: 25%;
+    float: right;
+    border-left: 1px solid black; 
+    margin-top: 30px;
+}
+.paragraph-mid{
+    margin-top: 0px;  
+}
+.mid-white-button-div{
+    margin-top: 40px;
+    width: 26%;
+    height: 21px;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+}
+.ul-mid{
+    list-style-type: none;
+    padding-left: 15px;
+    margin-top: 10px;
+    color: lightgray;
+    font-size: small;
+}
+.li-mid{
+    padding-bottom: 5px;
+}
+.main-child-child{
+    width: 100%;
+    height: 850px;
+    overflow: auto;
+    position: relative;
+}
+  /********BLOG POSTS***********/
+
+.blog-card{
+    background-color: white;
+    width: 30%;
+    height: 340px;
+    overflow: auto;
+    position: relative;
+    left: 35%;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px 1px #cecece;
+}
+.blog-head{
+    position: relative; 
+    width: 80%; 
+    overflow: hidden; 
+    border-left: 3px solid #FF5300;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.blog-body{
+    position: relative; 
+    width: 80%; 
+    overflow: hidden;
+    padding-left: 10%;
+    padding-top: 20px; 
+    margin-bottom: 20px;
+}
+.mySlides {display: none}
+
+.prev{
+    cursor: pointer;
+    float: left;
+    margin-left: 35vw;
+    margin-right: 0px;
+}
+.next{
+    cursor: pointer;
+    float: right;
+    margin-right: 35vw;
+    margin-left: 0px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/********* INSTAGRAM **********/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+  }
+  .row:hover {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+    opacity: 0.7;
+  }
+  .column{
+    flex: 25%;
+    vertical-align: middle;
+    margin: 0px -12px 0px -12px;
+  }
+ .imag{
+    margin: -25px 0px 0px 0px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+/**** EMAIL *****/
+  .mail{
+    padding: 16px;
+    color: grey;
+    border: 0px;
+    margin: -6px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  .gray-text{
+      color: gray;
+  }
+
+/***** FOOTER- *****/
+.column-foot {
+    float: left;
+    width: 16%;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .column1-foot {
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .row-foot{
+    margin-bottom: 2px;
+    border-bottom: 1px solid gray;
+  }
+  .row-foot:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+  }
+  .foot-text{
+    color: gray;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .circleBase{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid #FF5300;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .circleBase:hover{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid white;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .foot-img{
+    margin: 7px 7px;
+  }
+  .pages-foot{
+      margin-top: 15px;
+      margin-bottom: 24px;
+  }
+  .ul-foot{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 10px
+}
+.li-foot{
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+                                            /**************** ENDD *********************/
+                                                         /* SHRANJAY */
+  
+  
+
